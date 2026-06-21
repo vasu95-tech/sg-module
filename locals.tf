@@ -4,5 +4,5 @@ locals {
     environment = var.environment
     terraform = true
   }
-  common_name = "${var.project_name}-${var.project_name}"
+  common_name = "${var.project_name}-${var.environment}"
 }
