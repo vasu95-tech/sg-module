@@ -11,10 +11,10 @@ variable "sg_name" {
 }
 
 variable "description" {
-  type = map
-  default = {}
+  type = string
+  default = ""
 }
-
+ 
 variable "vpc_id" {
   type = string
 }
@@ -23,6 +23,7 @@ variable "sg_tags" {
   type = map
   default = {}
 }
+
 
 
 
